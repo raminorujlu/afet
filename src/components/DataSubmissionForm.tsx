@@ -25,7 +25,14 @@ import {
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { toast } from "sonner";
-import { CalendarIcon, FileCheck, FileEdit, MapPin, Star } from "lucide-react";
+import {
+  CalendarIcon,
+  ExternalLink,
+  FileCheck,
+  FileEdit,
+  MapPin,
+  Star,
+} from "lucide-react";
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -118,6 +125,12 @@ export function DataSubmissionForm() {
             Share your experience to help us gather more accurate data on
             earthquake impacts.
           </p>
+          <a target="_blank" href="https://quake-watch-feed.lovable.app">
+            <Button className="w-full bg-gradient-to-r from-amber-800 to-amber-500 mt-2">
+              View latest reports on Communities
+              <ExternalLink />
+            </Button>
+          </a>
         </div>
 
         {submitted ? (
