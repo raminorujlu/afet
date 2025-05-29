@@ -215,7 +215,7 @@ export function EarthquakeMap({
               Recent Earthquakes
             </CardTitle>
             <CardDescription className="text-xs">
-              Showing {earthquakes.length} earthquakes in Turkey
+              Showing {earthquakes.length} earthquakes in Türkiye
             </CardDescription>
           </CardHeader>
         </Card>

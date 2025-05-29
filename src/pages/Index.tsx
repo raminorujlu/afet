@@ -159,7 +159,7 @@ const Index = () => {
           <div className="flex items-center space-x-2">
             <AlertCircle className="h-5 w-5 text-primary" />
             <h1 className="text-xl font-semibold truncate">
-              Turkey Earthquake Monitor
+              Türkiye Earthquake Monitor
             </h1>
           </div>
 
